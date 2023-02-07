@@ -2,30 +2,30 @@
     <string name="write_secure_settings_permission" translatable="false">android.permission.WRITE_SECURE_SETTINGS</string>
     <string name="adb_command" translatable="false">adb shell pm grant %1s %2s</string>
 
-    <string name="permission_missing">Permission missing!</string>
-    <string name="grant_permission_adb">Please give \"write secure settings\" permission running the following ADB command \"%1s\" and force close the app, for further instructions please visit the apps wiki</string>
-    <string name="usage_permission_missing">Usage stats permission missing, please grant it in the following screen</string>
-    <string name="app_info_1">Monochromatic is an app to facilitate phone usage at night, by enabling the built in monochrome feature in Android 5 or later</string>
-    <string name="app_info_2">As this changes a system setting, uninstalling this app wont revert it. To do that either disable the app before uninstalling or change back to color mode in the developer settings</string>
-    <string name="app_info_3">By default Monochromatic is set to always on, you can change when grey scale is enabled in the settings</string>
+    <string name="permission_missing">没有权限!</string>
+    <string name="grant_permission_adb">通过运行下面的 ADB 命令给予应用「写入安全设置」权限 \"%1s\" ，然后您需要关闭（强行停止）该应用，更多指导请参考app的wiki</string>
+    <string name="usage_permission_missing">缺少使用时间统计权限，请在接下来的页面授予此应用该权限</string>
+    <string name="app_info_1">Monochromatic 通过启用安卓5及以上系统内置的单色功能，方便用户在夜间使用手机。</string>
+    <string name="app_info_2">由于此功能是更改系统设置实现的，所以卸载该应用不会还原它。如果您需卸载该应用，请在卸载前禁用它，或在卸载后在开发人员设置中更改回颜色模式</string>
+    <string name="app_info_3">默认情况下，此应用设置为始终打开，您可以在设置中启用灰度时进行更改</string>
 
-    <string name="app_info_about">Unlike other night screen apps, this doesn\'t create an overlay, enabling monochrome for all screens and views, and does not interfere with android secure actions such as installing apps</string>
-    <string name="notification_dismiss_notice">Starting from android 8 apps are required to show a notification to be able to run in the background, the notification can be hidden by holding down on it and toggling the switch that appears</string>
-    <string name="service_enabled">Monochromatic enabled</string>
-    <string name="service_disabled">Monochromatic disabled</string>
+    <string name="app_info_about">与其他适用于夜间的屏幕应用程序不同，该应用不是通过创建一个页面上的覆盖面而起作用的，所以其在任何界面都会生效，包括密码界面与软件安装界面（此方式也产生任何安全问题）</string>
+    <string name="notification_dismiss_notice">从android 8开始，应用程序需要显示通知才能在后台运行，通过按住通知并切换显示的开关可以隐藏通知</string>
+    <string name="service_enabled">Monochromatic 启动</string>
+    <string name="service_disabled">Monochromatic 暂停</string>
     <string name="by_richyhbm">By RichyHBM</string>
     <string name="toggle">Monochrome</string>
 
     <string name="wiki">Wiki</string>
-    <string name="disable">Disable</string>
-    <string name="disable_for_screen">Screen</string>
-    <string name="disable_for_session">Session</string>
-    <string name="share_command">Share Command</string>
-    <string name="toggle_greyscale">Toggle Greyscale</string>
-    <string name="toggling_please_wait">Toggling, please wait!</string>
-    <string name="force_color">Force color</string>
-    <string name="whitelist">Whitelist</string>
-    <string name="settings">Settings</string>
-    <string name="about">About</string>
+    <string name="disable">暂停</string>
+    <string name="disable_for_screen">直到下一次关闭单色</string>
+    <string name="disable_for_session">直到下一个会话关闭单色</string>
+    <string name="share_command">转发该命令</string>
+    <string name="toggle_greyscale">切换灰度</string>
+    <string name="toggling_please_wait">切换中，请稍等！</string>
+    <string name="force_color">强制色彩</string>
+    <string name="whitelist">白名单</string>
+    <string name="settings">设置</string>
+    <string name="about">关于</string>
     <string name="show_system">Show System</string>
 </resources>
